@@ -107,7 +107,7 @@
                             
                             <!--Search Box-->
                             
-                            <li class="menu-btn hidden-bar-opener"><span class="flaticon-menu-button-of-three-lines"></span></li>
+                            <li class="menu-btn hidden-bar-opener"><span class="flaticon-rent"></span></li>
                         </ul>
                     </div>
                     
@@ -895,7 +895,7 @@
                         <h2>Escríbenos</h2>
                         <!--Default Form-->
                         <div class="default-form">
-                            <form method="post" action="contact.html">
+                            <form method="post" id="contactFormInfo" action="https://email.buckapi.com:3029/ejemplo">
                                 <div class="row clearfix">
                                     <div class="form-group col-md-6 col-sm-6 co-xs-12">
                                         <input type="text" name="text" value="" placeholder="Nombre" required>
@@ -904,7 +904,7 @@
                                         <input type="email" name="email" value="" placeholder="Email" required>
                                     </div>
                                     <div class="form-group col-md-12 col-sm-12 co-xs-12">
-                                        <textarea placeholder="Mensajes"></textarea>
+                                        <textarea placeholder="Dinos que quisieras Lotes o Cabañas"></textarea>
                                     </div>
                                     <div class="form-group col-md-12 col-sm-12 co-xs-12">
                                         <button type="submit" class="theme-btn btn-style-one">Enviar</button>
@@ -1075,3 +1075,51 @@
 <script src="js/color-settings.js"></script>
 </body>
 </html>
+<script type="text/javascript">
+
+
+
+async function postFormDataAsJson({ url, formData }) {
+    const plainFormData = Object.fromEntries(formData.entries());
+    const formDataJsonString = JSON.stringify(plainFormData);
+
+    const fetchOptions = {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+        },
+        body: formDataJsonString,
+    };
+
+    const response = await fetch(url, fetchOptions);
+
+    if (!response.ok) {
+        const errorMessage = await response.text();
+        throw new Error(errorMessage);
+    }
+
+    return response.json();
+}
+
+
+async function handleFormSubmit(event) {
+    event.preventDefault();
+
+    const form = event.currentTarget;
+    const url = form.action;
+
+    try {
+        const formData = new FormData(form);
+        const responseData = await postFormDataAsJson({ url, formData });
+
+        console.log({ responseData });
+    } catch (error) {
+        console.error(error);
+    }
+}
+
+const exampleForm = document.getElementById("contactFormInfo");
+exampleForm.addEventListener("submit", handleFormSubmit);
+
+</script>
