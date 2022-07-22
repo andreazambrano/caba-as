@@ -65,7 +65,7 @@ a,
 .main-header .options-box .options-nav > li > a:hover,
 .main-header .sticky-header .main-menu .navigation > li:hover > a,
 .main-header .sticky-header .main-menu .navigation > li.current > a{
-	color:#7bca33;
+	color:#59941d;
 }
 
 /*Background Color*/
@@ -99,7 +99,7 @@ a,
 .sidebar-page-container .comments-area .comment-box .theme-btn:hover,
 .convenience-info-tabs .convenience-tabs .tab-btns .tab-btn.active-btn,
 .social-icon-one li a:hover{
-	background-color:#7bca33;
+	background-color:#59941d;
 }
 
 /*Border Color*/
@@ -136,7 +136,7 @@ a,
 .contact-form input[type="text"]:focus,
 .contact-form input[type="email"]:focus,
 .contact-form textarea:focus{
-	border-color:#7bca33;
+	border-color:#59941d;
 }
 
 /*Light RGBA Border Color*/
@@ -145,7 +145,7 @@ a,
 }
 
 .measurement-section .measurement-tabs .tab-btns .tab-btn:after{
-	border-top-color:#7bca33;
+	border-top-color:#59941d;
 }
 
 /*RGBA Color Light*/
@@ -162,7 +162,7 @@ a,
 @media only screen and (max-width: 767px){
 	
 	.main-menu .navbar-header .navbar-toggle{
-		border-color:#7bca33;
+		border-color:#59941d;
 	}
 	
 	.main-menu .navbar-header .navbar-toggle,
@@ -181,7 +181,7 @@ a,
 	.main-menu .navbar-collapse > .navigation > li.current > a,
 	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a,
 	.header-style-two.inner-header .main-menu .navigation > li > a{
-		background-color:#7bca33;
+		background-color:#59941d;
 	}
 	
 }
