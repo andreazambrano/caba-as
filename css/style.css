@@ -869,7 +869,7 @@ img{
 
 .main-header .nav-outer{
 	position:relative;
-	float:right;
+	float:inherit;
 }
 
 .main-header .header-upper{
@@ -984,6 +984,7 @@ img{
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	transition:all 300ms ease;
+	padding-left: 15%;
 }
 
 .main-menu .navbar-collapse{

@@ -40,13 +40,12 @@
         <!-- Main Box -->
         <div class="main-box">
             <div class="outer-container clearfix">
-                <!--Logo Box-->
-                <div class="logo-box">
-                    <div class="logo"><a href="index.html"><img src="images/logo-3.png" alt=""></a></div>
-                </div>
                 
                 <!--Nav Outer-->
                 <div class="nav-outer clearfix">
+                    <div class="logo-box">
+                        <div class="logo"><a href="index.html"><img src="images/logo-3.png" alt=""></a></div>
+                    </div>
                     <!-- Main Menu -->
                     <nav class="main-menu">
                         <div class="navbar-header">
@@ -65,6 +64,10 @@
                                 </li>
                                 <li><a href="index.html#feature">Caracteristicas</a></li>
                                 <li><a href="index.html#galeria">Galeria</a>
+                                </li>
+                                <li><a href="index.html#galeria2">Ambientes</a>
+                                </li>
+                                <li><a href="index.html#lotes">Lotes</a>
                                 </li>
                                 <li><a href="index.html#contacto">Reservas</a></li>
                              </ul>
@@ -114,12 +117,17 @@
                             
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li class="dropdown"><a href="index.html#about">Cabañas</a>
+                                    <li><a href="index.html#about">Cabañas</a>
                                     </li>
-                                    <li><a href="index.html#feature">Caracteristicas</a></li>
+                                    <li><a href="index.html#feature">Por que elegirnos</a></li>
+                                    <li><a href="index.html#cabañas">Producto</a></li>
                                     <li><a href="index.html#galeria">Galeria</a>
                                     </li>
-                                    <li><a href="index.html">Reservas</a></li>
+                                    <li><a href="index.html#galeria2">Ambientes</a>
+                                    </li>
+                                    <li><a href="index.html#lotes">Lotes</a>
+                                    </li>
+                                    <li><a href="index.html#contacto">Reservas</a></li>
                                  </ul>
                             </div>
                         </nav>
@@ -221,7 +229,7 @@
     <!--End Main Slider-->
     
     <!--Featured Section-->
-    <section class="featured-section" id="about">
+    <section class="featured-section">
         <div class="outer-container">
             <div class="row clearfix">
                 
@@ -235,7 +243,7 @@
                             </div>
                             <div class="content">
                                 <div class="content-inner">
-                                    <h3><a href="index.html">Habitacion Suite</a></h3>
+                                    <h3>Habitacion Suite</h3>
                                     <div class="square">37 m2 <span>Construidos</span></div>
                                     
                                 </div>
@@ -254,7 +262,7 @@
                             </div>
                             <div class="content">
                                 <div class="content-inner">
-                                    <h3><a href="index.html">Jacuzzi</a></h3>
+                                    <h3>Jacuzzi</h3>
                                     <div class="square">2  <span>Personas</span></div>
                                     
                                 </div>
@@ -273,7 +281,7 @@
                             </div>
                             <div class="content">
                                 <div class="content-inner">
-                                    <h3><a href="index.html">Decks con maravillosa vista</a></h3>
+                                    <h3>Decks con maravillosa vista</h3>
                                     <div class="square"> <span>Plataforma </span></div>
                                     
                                 </div>
@@ -298,7 +306,7 @@
                         <h2>Cabañas La vega Mejía. <br>Un espacio natural.</h2>
                         <div class="text"><i> Se el dueño de una suite en el complejo turístico Vega Mejía y ten acceso y las comodidades y servicios de un hotel.</i></div>
                         <div class="text">Un complejo vacacional para disfrutar y alquilar, Cabaña turística  con vista la represa de Porce totalmente habilitada para funcionar como operador turístico sobre lote de 400mt2 con escritura correspondiente en porcentaje al predio.</div>
-                        <a href="index.html#" class="theme-btn btn-style-two">Reservar</a>
+                        <a href="#contacto" class="theme-btn btn-style-two">Reservar</a>
                     </div>
                 </div>
                 
@@ -371,7 +379,7 @@
     <!--End About Section Three-->
 
     <!--Fluid Section One-->
-    <section class="fluid-section-one">
+    <section class="fluid-section-one" id="feature">
         <div class="outer-container clearfix">
             <!--Image Column-->
             <div class="image-column" style="background-image:url(images/resource/image-1.jpg);">
@@ -384,7 +392,7 @@
             <div class="content-column">
                 <div class="inner-box">
                     <h2>¿Por que elejirnos?</h2>
-                    <div class="text">La Vega Mejia <br> Disfruta de un espacio natural, un camino que te conecta con la escencia de la naturaleza rodeado de espacios y vias totalmente naturales, amplios y  seguros.. Te contamos:</div>
+                    <div class="text">La Vega Mejía <br> Disfruta de un espacio natural, un camino que te conecta con la escencia de la naturaleza rodeado de espacios y vias totalmente naturales, amplios y  seguros.. Te contamos:</div>
                     <div class="row clearfix">
                         
                         <!--Featured Block-->
@@ -427,13 +435,15 @@
         </div>
     </section>
     <!--End Fluid Section One-->
-    <section class="call-to-action-section">
+
+
+    <section class="call-to-action-section" style="padding-top: 5%; padding-bottom:5%">
         <div class="auto-container">
             <div class="row clearfix">
                 <!--Logo Column-->
                 <div class="logo-column col-md-3 col-sm-12 col-xs-12">
                     <div class="logo">
-                        <img src="images/icons/logo-3.png" alt="" />
+                        <img src="images/icons/logo.png" alt="" />
                     </div>
                 </div>
                 <!--Text Column-->
@@ -446,125 +456,10 @@
         </div>
     </section>
      <!--Video Tour Section-->
-    <section class="video-tour-section" style="">
-        <div class="outer-container">
-            
-            <div class="carousel-outer">
-
-                <ul class="video-carousel owl-carousel owl-theme">
-                    <li><a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image" data-fancybox="images" data-caption="" title="Image Caption Here"><img src="images/resource/video-1.jpg" alt=""></a></li>
-                    <li><a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image" data-fancybox="images" data-caption="" title="Image Caption Here"><img src="images/resource/video-1.jpg" alt=""></a></li>
-                    <li><a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image" data-fancybox="images" data-caption="" title="Image Caption Here"><img src="images/resource/video-1.jpg" alt=""></a></li>
-                    <li><a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image" data-fancybox="images" data-caption="" title="Image Caption Here"><img src="images/resource/video-1.jpg" alt=""></a></li>
-                    <li><a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image" data-fancybox="images" data-caption="" title="Image Caption Here"><img src="images/resource/video-1.jpg" alt=""></a></li>
-                    <li><a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image" data-fancybox="images" data-caption="" title="Image Caption Here"><img src="images/resource/video-1.jpg" alt=""></a></li>
-                    <li><a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image" data-fancybox="images" data-caption="" title="Image Caption Here"><img src="images/resource/video-1.jpg" alt=""></a></li>
-                    <li><a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image" data-fancybox="images" data-caption="" title="Image Caption Here"><img src="images/resource/video-1.jpg" alt=""></a></li>
-                </ul>
-                
-                <ul class="video-thumbs-carousel owl-carousel owl-theme">
-                    <li><img src="images/resource/video-2.jpg" alt=""></li>
-                    <li><img src="images/resource/video-3.jpg" alt=""></li>
-                    <li><img src="images/resource/video-4.jpg" alt=""></li>
-                    <li><img src="images/resource/video-5.jpg" alt=""></li>
-                    <li><img src="images/resource/video-2.jpg" alt=""></li>
-                    <li><img src="images/resource/video-3.jpg" alt=""></li>
-                    <li><img src="images/resource/video-4.jpg" alt=""></li>
-                    <li><img src="images/resource/video-5.jpg" alt=""></li>
-                </ul>
-                
-            </div>
-            
-        </div>
-    </section>
-    <!--End Video Tour Section-->
-    
-    <!--Gallery Section Three-->
-    <section class="gallery-section-three" id="galeria">
-        <div class="outer-container">
-            <!--Sortable Gallery-->
-            <div class="sortable-gallery">
-                <div class="outer-box clearfix">
-                    <!--Filter-->
-                    <div class="filters-column">
-                        <div class="filters clearfix">
-                            <h2>Aprecia como son los espacios</h2>
-                            <ul class="filter-tabs filter-btns">
-                                <li class="filter active" data-role="button" data-filter="all">Todo</li>
-                                <li class="filter" data-role="button" data-filter=".bedroom">Jacuzzi</li>
-                                <li class="filter" data-role="button" data-filter=".drawing-room">Sala de baño</li>
-                                <li class="filter" data-role="button" data-filter=".living-room">Deck panoramica</li>
-                                <li class="filter" data-role="button" data-filter=".kitchen">Cocina</li>
-                                <li class="filter" data-role="button" data-filter=".garage">Garage</li>
-                                <li class="filter" data-role="button" data-filter=".basement">Basement</li>
-                            </ul>
-                            <!-- <a href="index.html#" class="theme-btn view-more btn-style-two">View More</a> -->
-                        </div>
-                    </div>
-                    
-                    <div class="items-column">
-                        <div class="items-container filter-list row clearfix">
-                            
-                            <!--Gallery Block Three-->
-                            <div class="gallery-block-three drawing-room mix all col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="inner-box">
-                                    <figure class="image-box"><img src="images/gallery/43.jpg" alt=""></figure>
-                                    <a href="images/gallery/43.jpg" class="link-btn lightbox-image" data-fancybox="images" data-caption=""><span class="fa fa-expand"></span></a>
-                                </div>
-                            </div>
-                            
-                            <!--Gallery Block Three-->
-                            <div class="gallery-block-three all garage basement bedroom mix all col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="inner-box">
-                                    <figure class="image-box"><img src="images/gallery/44.jpg" alt=""></figure>
-                                    <a href="images/gallery/44.jpg" class="link-btn lightbox-image" data-fancybox="images" data-caption=""><span class="fa fa-expand"></span></a>
-                                </div>
-                            </div>
-                            
-                            <!--Gallery Block Three-->
-                            <div class="gallery-block-three all drawing-room living-room mix all col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="inner-box">
-                                    <figure class="image-box"><img src="images/gallery/47.jpg" alt=""></figure>
-                                    <a href="images/gallery/47.jpg" class="link-btn lightbox-image" data-fancybox="images" data-caption=""><span class="fa fa-expand"></span></a>
-                                </div>
-                            </div>
-                            
-                            <!--Gallery Block Three-->
-                            <div class="gallery-block-three all garage basement living-room mix all col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="inner-box">
-                                    <figure class="image-box"><img src="images/gallery/48.jpg" alt=""></figure>
-                                    <a href="images/gallery/48.jpg" class="link-btn lightbox-image" data-fancybox="images" data-caption=""><span class="fa fa-expand"></span></a>
-                                </div>
-                            </div>
-                            
-                            <!--Gallery Block Three-->
-                            <div class="gallery-block-three all kitchen basement living-room mix all col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="inner-box">
-                                    <figure class="image-box"><img src="images/gallery/45.jpg" alt=""></figure>
-                                    <a href="images/gallery/45.jpg" class="link-btn lightbox-image" data-fancybox="images" data-caption=""><span class="fa fa-expand"></span></a>
-                                </div>
-                            </div>
-                            
-                            <!--Gallery Block Three-->
-                            <div class="gallery-block-three all bedroom kitchen garage mix all col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="inner-box">
-                                    <figure class="image-box"><img src="images/gallery/46.jpg" alt=""></figure>
-                                    <a href="images/gallery/46.jpg" class="link-btn lightbox-image" data-fancybox="images" data-caption=""><span class="fa fa-expand"></span></a>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Gallery Section Three-->
 
     <section class="convenience-section" style="background-image:url(images/background/2.jpg)">
-        <div class="auto-container">
-            <h2>La Vega Mejia, ofrece Cabañas y lotes</h2>
+        <div class="auto-container" id="cabañas">
+            <h2>La Vega Mejía, ofrece Cabañas y lotes</h2>
             <div class="outer-container clearfix">
                 <!--Content Column-->
                 <div class="content-column">
@@ -648,9 +543,125 @@
             </div>
         </div>
     </section>
+   
+    
+    <!--Gallery Section Three-->
+    <section class="gallery-section-three" id="galeria">
+        <div class="outer-container">
+            <!--Sortable Gallery-->
+            <div class="sortable-gallery">
+                <div class="outer-box clearfix">
+                    <!--Filter-->
+                    <div class="filters-column">
+                        <div class="filters clearfix">
+                            <h2>Aprecia como son los espacios</h2>
+                            <ul class="filter-tabs filter-btns">
+                                <li class="filter active" data-role="button" data-filter="all">Todo</li>
+                                <li class="filter" data-role="button" data-filter=".bedroom">Jacuzzi</li>
+                                <li class="filter" data-role="button" data-filter=".drawing-room">Sala de baño</li>
+                                <li class="filter" data-role="button" data-filter=".living-room">Deck panoramica</li>
+                                <li class="filter" data-role="button" data-filter=".kitchen">Cocina</li>
+                                
+                            </ul>
+                            <!-- <a href="index.html#" class="theme-btn view-more btn-style-two">View More</a> -->
+                        </div>
+                    </div>
+                    
+                    <div class="items-column">
+                        <div class="items-container filter-list row clearfix">
+                            
+                            <!--Gallery Block Three-->
+                            <div class="gallery-block-three drawing-room mix all col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="images/gallery/43.jpg" alt=""></figure>
+                                    <a href="images/gallery/43.jpg" class="link-btn lightbox-image" data-fancybox="images" data-caption=""><span class="fa fa-expand"></span></a>
+                                </div>
+                            </div>
+                            
+                            <!--Gallery Block Three-->
+                            <div class="gallery-block-three all garage basement bedroom mix all col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="images/gallery/44.jpg" alt=""></figure>
+                                    <a href="images/gallery/44.jpg" class="link-btn lightbox-image" data-fancybox="images" data-caption=""><span class="fa fa-expand"></span></a>
+                                </div>
+                            </div>
+                            
+                            <!--Gallery Block Three-->
+                            <div class="gallery-block-three all drawing-room living-room mix all col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="images/gallery/47.jpg" alt=""></figure>
+                                    <a href="images/gallery/47.jpg" class="link-btn lightbox-image" data-fancybox="images" data-caption=""><span class="fa fa-expand"></span></a>
+                                </div>
+                            </div>
+                            
+                            <!--Gallery Block Three-->
+                            <div class="gallery-block-three all garage basement living-room mix all col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="images/gallery/48.jpg" alt=""></figure>
+                                    <a href="images/gallery/48.jpg" class="link-btn lightbox-image" data-fancybox="images" data-caption=""><span class="fa fa-expand"></span></a>
+                                </div>
+                            </div>
+                            
+                            <!--Gallery Block Three-->
+                            <div class="gallery-block-three all kitchen basement living-room mix all col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="images/gallery/45.jpg" alt=""></figure>
+                                    <a href="images/gallery/45.jpg" class="link-btn lightbox-image" data-fancybox="images" data-caption=""><span class="fa fa-expand"></span></a>
+                                </div>
+                            </div>
+                            
+                            <!--Gallery Block Three-->
+                            <div class="gallery-block-three all bedroom kitchen garage mix all col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="images/gallery/46.jpg" alt=""></figure>
+                                    <a href="images/gallery/46.jpg" class="link-btn lightbox-image" data-fancybox="images" data-caption=""><span class="fa fa-expand"></span></a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Gallery Section Three-->
+    <section class="video-tour-section" style="">
+        <div class="outer-container" id="galeria2">
+            
+            <div class="carousel-outer">
+
+                <ul class="video-carousel owl-carousel owl-theme">
+                    <li><a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image" data-fancybox="images" data-caption="" title="Image Caption Here"><img src="images/resource/video-1.jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image" data-fancybox="images" data-caption="" title="Image Caption Here"><img src="images/resource/video-1.jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image" data-fancybox="images" data-caption="" title="Image Caption Here"><img src="images/resource/video-1.jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image" data-fancybox="images" data-caption="" title="Image Caption Here"><img src="images/resource/video-1.jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image" data-fancybox="images" data-caption="" title="Image Caption Here"><img src="images/resource/video-1.jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image" data-fancybox="images" data-caption="" title="Image Caption Here"><img src="images/resource/video-1.jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image" data-fancybox="images" data-caption="" title="Image Caption Here"><img src="images/resource/video-1.jpg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image" data-fancybox="images" data-caption="" title="Image Caption Here"><img src="images/resource/video-1.jpg" alt=""></a></li>
+                </ul>
+                
+                <ul class="video-thumbs-carousel owl-carousel owl-theme">
+                    <li><img src="images/resource/video-2.jpg" alt=""></li>
+                    <li><img src="images/resource/video-3.jpg" alt=""></li>
+                    <li><img src="images/resource/video-4.jpg" alt=""></li>
+                    <li><img src="images/resource/video-5.jpg" alt=""></li>
+                    <li><img src="images/resource/video-2.jpg" alt=""></li>
+                    <li><img src="images/resource/video-3.jpg" alt=""></li>
+                    <li><img src="images/resource/video-4.jpg" alt=""></li>
+                    <li><img src="images/resource/video-5.jpg" alt=""></li>
+                </ul>
+                
+            </div>
+            
+        </div>
+    </section>
+    <!--End Video Tour Section-->
+    
     
     <!--Plans Section-->
-    <section class="plans-section" style="padding-bottom: 50px; padding-top: 50px;">
+    <section class="plans-section" style="padding-bottom: 2%; " id="lotes">
         <div class="auto-container">
             <div class="plans-tab tabs-box">
                 <div class="row clearfix">
@@ -703,7 +714,7 @@
     </section>
     <!--End Plans Section-->
 
-    <section class="gallery-section-two" style="padding-bottom: 50px; padding-top: 50px;">
+    <section class="gallery-section-two" style="padding-bottom: 2%; padding-top: 2%;">
         <div class="auto-container">
             <!--Sec Title-->
             <div class="sec-title centered">
@@ -870,49 +881,7 @@
         
     </section>
     
-    <!-- <section class="fluid-section-two" style="padding-top: 50px;">
-        <div class="outer-container clearfix">
-            
-            <div class="map-column">
-                
-                <div class="map-canvas"
-                    data-zoom="12"
-                    data-lat="-37.817085"
-                    data-lng="144.955631"
-                    data-type="roadmap"
-                    data-hue="#ffc400"
-                    data-title="Envato"
-                    data-icon-path="images/icons/map-marker.png"
-                    data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>">
-                </div>
-            </div>
-            
-            <div class="content-column">
-                <div class="inner-box">
-                    <h2>Cabañas</h2>
-                    <div class="text">Mumblecore pabst gochujang yuccie fingerstache, before they sold out cred mlkshk poutine af squid. Edison bulb cronut air plant pickled four loko vinyl. Tilde franzen sartorial, williamsburg vape keffiyeh man bun retro butcher. </div>
-                    <div class="row clearfix">
-                        <div class="column col-md-6 col-sm-6 col-xs-12">
-                            <ul class="list-style-four">
-                                <li><span class="icon flaticon-transport"></span>Airport <strong>10km</strong></li>
-                                <li><span class="icon flaticon-resort"></span>Hotel <strong>8km</strong></li>
-                                <li><span class="icon flaticon-heart-2"></span>Hospital <strong>14Km</strong></li>
-                            </ul>
-                        </div>
-                        <div class="column col-md-6 col-sm-6 col-xs-12">
-                            <ul class="list-style-four">
-                                <li><span class="icon flaticon-tube-train-front-view"></span>Train Station <strong>5km</strong></li>
-                                <li><span class="icon flaticon-bus"></span>Bus Stand <strong>10km</strong></li>
-                                <li><span class="icon flaticon-boat"></span>River Road <strong>2km</strong></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!--End Fluid Section Two-->
-    
+        
     <!--Contact Section-->
     <section class="contact-section" style="background-image:url(images/background/1.jpg)" id="contacto">
         <div class="auto-container">
@@ -921,11 +890,11 @@
                 <!--Info Column-->
                 <div class="info-column col-md-4 col-sm-12 col-xs-12">
                     <div class="inner-column">
-                        <h2>Detalles de ubicaciòn</h2>
+                        <h2>Detalles de ubicación</h2>
                         <ul>
-                            <li><span>Direcciòn</span>2560 Lorem Ave, San Diego, Colombia</li>
-                            <li><span>Telefono</span>+00 123 456 7898</li>
-                            <li><span>Email</span>contact@donmian.com</li>
+                            <li><span>Dirección</span>Colombia</li>
+                            <li><span>Telefono</span>+57 302 3580293</li>
+                            <li><span>Email</span>lavegamejíanatural@gmail.com</li>
                             
                         </ul>
                     </div>
@@ -933,22 +902,22 @@
                 <!--Form Column-->
                 <div class="form-column col-md-8 col-sm-12 col-xs-12">
                     <div class="inner-column">
-                        <h2>Contact With Us</h2>
+                        <h2>Escribenos</h2>
                         <!--Default Form-->
                         <div class="default-form">
                             <form method="post" action="contact.html">
                                 <div class="row clearfix">
                                     <div class="form-group col-md-6 col-sm-6 co-xs-12">
-                                        <input type="text" name="text" value="" placeholder="Name" required>
+                                        <input type="text" name="text" value="" placeholder="Nombre" required>
                                     </div>
                                     <div class="form-group col-md-6 col-sm-6 co-xs-12">
                                         <input type="email" name="email" value="" placeholder="Email" required>
                                     </div>
                                     <div class="form-group col-md-12 col-sm-12 co-xs-12">
-                                        <textarea placeholder="Message"></textarea>
+                                        <textarea placeholder="Mensajes"></textarea>
                                     </div>
                                     <div class="form-group col-md-12 col-sm-12 co-xs-12">
-                                        <button type="submit" class="theme-btn btn-style-one">Send Message</button>
+                                        <button type="submit" class="theme-btn btn-style-one">Enviar</button>
                                     </div>
                                 </div>
                             </form>
@@ -1009,7 +978,7 @@
                                     <div class="logo">
                                         <a href="index.html"><img src="images/footer-logo.png" alt="" /></a>
                                     </div>
-                                    <div class="text">Nulla ac nunc eget ante consectetur lobortis a vel orci. Vivamus nibh est condimentum ac metus nec, gravida varius diam.</div>
+                                    <div class="text">Complejo turistico La Vega Mejía.</div>
                                     <!--Social Icon Two-->
                                     <ul class="social-icon-two">
                                         <li><a href="index.html#"><span class="fa fa-facebook-f"></span></a></li>
@@ -1025,14 +994,14 @@
                             <div class="footer-column col-md-5 col-sm-6 col-xs-12">
                                 <div class="footer-widget links-widget">
                                     <div class="footer-title">
-                                        <h2>Quick Links</h2>
+                                        <h2>Enlaces de interes</h2>
                                     </div>
                                     <ul class="footer-lists">
                                         
-                                        <li><a href="index.html#">FAQ</a></li>
-                                        <li><a href="index.html#">Advance Sarch</a></li>
-                                        <li><a href="index.html#">Site Map</a></li>
-                                        <li><a href="index.html#">Support</a></li>
+                                        <li><a href="index.html#">Producto</a></li>
+                                        <li><a href="index.html#"></a></li>
+                                        <li><a href="index.html#">Lotes</a></li>
+                                        <li><a href="index.html#">Contacto</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1082,14 +1051,14 @@
         <div class="footer-bottom style-two">
             <div class="row clearfix">
                 <div class="column col-md-6 col-sm-12 col-xs-12">
-                    <div class="copyright">Cabañas 2022 | Desarrollado por <a target="_blank" href="https://www.buckapi.com">Buckapi</a></div>
+                    <div class="copyright">Lavegamejia 2022 | Desarrollado por <a target="_blank" href="https://www.buckapi.com">Buckapi</a></div>
                 </div>
                 <div class="nav-column col-md-6 col-sm-12 col-xs-12">
                     <ul class="footer-nav">
-                        <li><a href="index.html#">Cabañas</a></li>
-                        <li><a href="index.html#">Pages</a></li>
-                        <li><a href="index.html#">Gallery</a></li>
-                        <li><a href="index.html#">Contact</a></li>
+                        <li><a href="index.html#cabañas">Cabañas</a></li>
+                        <li><a href="index.html#lotes">Lotes</a></li>
+                        <li><a href="index.html#galeria">Galeria</a></li>
+                        <li><a href="index.html#contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
