@@ -226,7 +226,7 @@
 	
 	.main-header .options-box{
 		margin-top:0px;
-		position:absolute;
+		position:fixed;
 		left:0px;
 		top:25px;
 		z-index:12;
@@ -471,14 +471,16 @@
 	}
 	
 	.main-menu .navbar-header{
-		position:relative;
+		position:fixed;
 		float:none;
 		display:block;
 		text-align:right;
 		width:100%;
-		padding:20px 0px;
+		padding:5px 0px;
 		right:0px;
 		z-index:12;
+		
+		top: 10px;
 	}
 	
 	.main-menu .navbar-header .navbar-toggle{
@@ -517,7 +519,7 @@
 	}
 	
 	.main-menu .navbar-collapse > .navigation > li > a{
-		padding:10px 10px !important;
+		padding:5px 5px !important;
 		border:none !important;
 	}
 	
@@ -587,7 +589,7 @@
 	.main-menu .navbar-collapse > .navigation > li > a,
 	.main-menu .navbar-collapse > .navigation > li > ul > li > a,
 	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a{
-		padding:10px 10px !important;
+		padding:5px 5px !important;
 		line-height:22px;
 		color:#ffffff;
 		background:#2c2c2c;
@@ -638,7 +640,7 @@
 		left:0px;
 		top:0px;
 		right:auto;
-		margin-top:15px;
+		margin-top:5px;
 		text-align:left;
 		z-index:12;
 	}
@@ -646,7 +648,7 @@
 	.main-header .main-box .logo-box{
 		float:none;
 		text-align:center;
-		padding-bottom:10px;
+		padding-bottom:5px;
 	}
 	
 	.main-header .options-box{
@@ -702,7 +704,7 @@
 	
 	.main-header .search-box-outer .dropdown-menu{
 		left:0px;
-		top:44px;
+		top:20px;
 	}
 	
 	.main-header .header-top{
@@ -827,6 +829,7 @@
 	.main-header .main-box{
 		padding-left:15px;
 		padding-right:15px;
+		position: fixed;
 	}
 	
 	.property-info{
@@ -936,7 +939,7 @@
 @media only screen and (max-width: 479px) {
 	
 	.main-header .search-box-outer .dropdown-menu{
-		top:44px;	
+		top:25px;	
 	}
 	
 	.header-style-two .search-box-outer .dropdown-menu{
